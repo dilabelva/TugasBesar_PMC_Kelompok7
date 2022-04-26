@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T06:49:41.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.6" etag="eCVzcFuXVU3Wf-oM7su0" type="github"><diagram id="7Um5Co2NbBZUi-C2wUSN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T04:49:19.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="Eu1okPK2ZAX8yBjk4NIm" version="17.4.6" type="github">
+  <diagram id="7Um5Co2NbBZUi-C2wUSN" name="Page-1">
+    <mxGraphModel dx="546" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-1" target="6mNPk8ZBZFVuF7AGS5om-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-1" value="addPair" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-4" target="6mNPk8ZBZFVuF7AGS5om-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-4" value="&lt;span&gt;Membuat node baru dari node *p dan node *q&amp;nbsp;&lt;/span&gt;&lt;span&gt;menggunakan fungsi createNodePair, serta menyimpan node baru tersebut pada varibel r&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-5" target="6mNPk8ZBZFVuF7AGS5om-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-5" target="6mNPk8ZBZFVuF7AGS5om-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-5" value="Jika head2 kosong (head2 == NULL)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="350" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-8" target="6mNPk8ZBZFVuF7AGS5om-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-8" value="&lt;span&gt;Deklarasi variabel node *r yang akan menyimpan data node baru dan *temp yang akan menyimpan data nodes yang ada pada head2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="140" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-9" value="Menyimpan r sebagai node pertama dari linked list head2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="365" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-10" target="6mNPk8ZBZFVuF7AGS5om-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-10" value="Menyimpan data node pertama head2 pada variabel temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-11" target="6mNPk8ZBZFVuF7AGS5om-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-11" target="6mNPk8ZBZFVuF7AGS5om-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-11" value="Mencari node terakhir pada head2 dengan memanfaatkan conditional selama temp-&amp;gt;next tidak NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-12" target="6mNPk8ZBZFVuF7AGS5om-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="760" />
+              <mxPoint x="100" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-12" value="Mengubah isi data node yang tersimpan pada temp menjadi data node berikutnya yang ada pada head2, dengan algoritma temp=temp-&amp;gt;next&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="720" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-13" value="Menghubungkan node terakhir pada head2 yang sudah tersimpan pada variabel temp dengan node baru r" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="595" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-23" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="319" y="377" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-24" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-25" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mNPk8ZBZFVuF7AGS5om-26" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
