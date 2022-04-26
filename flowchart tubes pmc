@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T06:40:25.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="CKJlaSIGX2PejFZH1ysS" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-26T09:00:43.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="vzC5Pk_57RoxGG9O6vXZ" version="17.4.6" type="github" pages="3">
   <diagram id="7Um5Co2NbBZUi-C2wUSN" name="addPair">
     <mxGraphModel dx="773" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,6 +31,9 @@
         <mxCell id="6mNPk8ZBZFVuF7AGS5om-8" value="&lt;span&gt;Deklarasi variabel node *r yang akan menyimpan data node baru dan *temp yang akan menyimpan data nodes yang ada pada head2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="147.5" y="140" width="205" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YaG4BMnI39-8sbKSPr7z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-9" target="YaG4BMnI39-8sbKSPr7z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6mNPk8ZBZFVuF7AGS5om-9" value="Menyimpan r sebagai node pertama dari linked list head2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="365" width="140" height="60" as="geometry" />
         </mxCell>
@@ -60,6 +63,9 @@
         <mxCell id="6mNPk8ZBZFVuF7AGS5om-12" value="Mengubah isi data node yang tersimpan pada temp menjadi data node berikutnya yang ada pada head2, dengan algoritma temp=temp-&amp;gt;next&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="142.5" y="720" width="215" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="YaG4BMnI39-8sbKSPr7z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mNPk8ZBZFVuF7AGS5om-13" target="YaG4BMnI39-8sbKSPr7z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6mNPk8ZBZFVuF7AGS5om-13" value="Menghubungkan node terakhir pada head2 yang sudah tersimpan pada variabel temp dengan node baru r" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="595" width="220" height="60" as="geometry" />
         </mxCell>
@@ -78,26 +84,140 @@
         <mxCell id="srdmW8GnfelypVdDTuqg-1" value="addPair untuk membuat linked list baru&lt;br&gt;yang mennyimpan pasangan minterms,&lt;br&gt;disimpan dalam variabel global node *head2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="45" width="250" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="YaG4BMnI39-8sbKSPr7z-1" value="STOP" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="460" width="75" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="rT8yJzfPsu2c-g91zyTt" name="Page-2">
-    <mxGraphModel dx="464" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="rT8yJzfPsu2c-g91zyTt" name="displayTable">
+    <mxGraphModel dx="442" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PCvb0y-o3KUuSQaLJGIC-1" value="displayTable" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="40" width="120" height="80" as="geometry" />
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-1" target="PCvb0y-o3KUuSQaLJGIC-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PCvb0y-o3KUuSQaLJGIC-2" value="Deklarasi variabel i dan j yang akan menjadi variabel penghitung keberjalanan loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="160" height="60" as="geometry" />
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-1" value="displayTable" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-2" target="PCvb0y-o3KUuSQaLJGIC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-2" value="Deklarasi dan inisialisasi variabel i = 0 dan j = 0 yang akan menjadi variabel penghitung keberjalanan loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="140" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-3" target="PCvb0y-o3KUuSQaLJGIC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-3" target="PCvb0y-o3KUuSQaLJGIC-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PCvb0y-o3KUuSQaLJGIC-3" value="Jika i&amp;lt;Table.top &lt;br&gt;(i&amp;lt; banyaknya jumlah minterm dalam bilangan prima tertentu yang tersimpan pada &lt;br&gt;Table)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="330" width="160" height="150" as="geometry" />
+          <mxGeometry x="340" y="320" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="PCvb0y-o3KUuSQaLJGIC-4" value="print &quot;Prime Implicants Table.............\n&quot; pada layar user" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="240" width="210" height="60" as="geometry" />
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-4" target="PCvb0y-o3KUuSQaLJGIC-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-4" value="print &quot;Prime Implicants Table.............&quot; pada layar user" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="230" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-7" target="PCvb0y-o3KUuSQaLJGIC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-7" value="Mengubah binary dalam Table.arr[i][c] menjadi notasi variabel dan melakukan printing terhadapnya menggunakan fungsi&amp;nbsp;&amp;nbsp;convertBinaryToMintermNotation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-8" target="PCvb0y-o3KUuSQaLJGIC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-8" target="PCvb0y-o3KUuSQaLJGIC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-8" value="Jika j&amp;lt;limit-1&lt;br&gt;(j &amp;lt; 15, karena limit = 16)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="620" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-10" target="PCvb0y-o3KUuSQaLJGIC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-10" target="PCvb0y-o3KUuSQaLJGIC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="845" />
+              <mxPoint x="550" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-10" value="Jika Table.brr[i][j] == 1&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;(j &amp;lt; 15, karena limit = 16)&amp;nbsp;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="780" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-11" target="PCvb0y-o3KUuSQaLJGIC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-11" value="&lt;span style=&quot;&quot;&gt;print&amp;nbsp; j (kolom) kepada user&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="940" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-13" target="PCvb0y-o3KUuSQaLJGIC-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-13" value="print (enter) untuk membuat baris baru" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="333.75" y="1010" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-14" target="PCvb0y-o3KUuSQaLJGIC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="685" />
+              <mxPoint x="630" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-14" value="i++" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-28" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-29" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="910" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-30" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="820" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCvb0y-o3KUuSQaLJGIC-31" target="PCvb0y-o3KUuSQaLJGIC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="1095" />
+              <mxPoint x="260" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-31" value="j++" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-39" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="660" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-40" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="470" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-41" value="STOP" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-43" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qqAp2wq9QW0_3gjquxva-1" value="displayTable digunakan untuk melakukan printing &lt;br&gt;terhadap tabel dengan bilangan prima implisit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="55" width="280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nUEeOJSUJkF5rt3MKme1" name="Page-3">
+    <mxGraphModel dx="663" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
