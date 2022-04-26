@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T04:49:19.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="Eu1okPK2ZAX8yBjk4NIm" version="17.4.6" type="github">
-  <diagram id="7Um5Co2NbBZUi-C2wUSN" name="Page-1">
-    <mxGraphModel dx="546" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-04-26T06:40:25.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="CKJlaSIGX2PejFZH1ysS" version="17.4.6" type="github" pages="2">
+  <diagram id="7Um5Co2NbBZUi-C2wUSN" name="addPair">
+    <mxGraphModel dx="773" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,6 +74,29 @@
         </mxCell>
         <mxCell id="6mNPk8ZBZFVuF7AGS5om-26" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="srdmW8GnfelypVdDTuqg-1" value="addPair untuk membuat linked list baru&lt;br&gt;yang mennyimpan pasangan minterms,&lt;br&gt;disimpan dalam variabel global node *head2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="45" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rT8yJzfPsu2c-g91zyTt" name="Page-2">
+    <mxGraphModel dx="464" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-1" value="displayTable" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-2" value="Deklarasi variabel i dan j yang akan menjadi variabel penghitung keberjalanan loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-3" value="Jika i&amp;lt;Table.top &lt;br&gt;(i&amp;lt; banyaknya jumlah minterm dalam bilangan prima tertentu yang tersimpan pada &lt;br&gt;Table)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PCvb0y-o3KUuSQaLJGIC-4" value="print &quot;Prime Implicants Table.............\n&quot; pada layar user" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="240" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
