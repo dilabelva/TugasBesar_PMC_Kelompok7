@@ -2,7 +2,7 @@
  *Kelompok          : 7
  *Kelas             : K-01
  *Hari dan Tanggal  : Jumat, 20 Mei 2022
- *Nama File         : tubespmc.c 
+ *Nama File         : tubes_pmc.c 
  *Deskripsi         : Progam minimization logic boolean algebra
  */
 
